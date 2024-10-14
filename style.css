@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: blueviolet;
+}
+h4{
+   color: rgb(158, 105, 199);
+   
+   padding: 10px;
+   
+   
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+    justify-content:space-around;
+}
+header ul li{
+    margin: 20px;
+    list-style: none;
+}
+header ul li a{
+    color:rgb(123, 53, 188);
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: rgba(255, 255, 255, 0.914);
+    text-shadow: 4px 3px 4px white;
+}
+span{
+    color: beige;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+p,h3{
+    text-align: justify;
+    margin-left: 50px;
+}
+p{
+    padding: 40px;
+}
+.box{
+    margin: 10px;
+    width: 300px;
+    height: 600px;
+    box-shadow: 1px 0 10px white;
+}
+.box h4{
+    text-align: center;
+}
+.box p{
+   text-align: center;
+   text-align: justify;
+   padding: 20px;
+    
+}
+
+
+.contact{
+    background-color:black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+
+
